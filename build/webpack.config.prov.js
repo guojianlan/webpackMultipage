@@ -53,7 +53,7 @@ baseWebpackConfig.module.loaders.push({
         loader: 'url',
         query: {
           limit: 10000,
-          publicPath:'http://i.zenpage.cn',
+          publicPath:'/',
           name: '/static/pdfTemplate/'+moduleName+'/images/[name].[hash:7].[ext]'
         }
       })
