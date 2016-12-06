@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body {
+  font-size: 40px; }
+
+@font-face {
+  font-family: 'webfont';
+  src: url("../../../../fonts/web/webfont.woff") format("woff");
+  /* chrome、firefox */ }
+html {
+  height: 100%;
+  background: #000; }
+  html .imgsrc {
+    width: 100px;
+    height: 100px;
+    background: url("../../../../images/web/login_bg.jpg") no-repeat center; }
+
+/*# sourceMappingURL=public.css.map */

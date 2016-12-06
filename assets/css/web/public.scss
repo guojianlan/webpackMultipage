@@ -1,0 +1,15 @@
+@import './test.scss';
+@font-face {
+	font-family: 'webfont';
+  src: url('../../../../fonts/web/webfont.woff') format('woff'); /* chrome、firefox */
+}
+html{
+
+	height: 100%;
+	background: #000;
+	.imgsrc{
+		width: 100px;
+		height: 100px;
+		background: url('../../../../images/web/login_bg.jpg') no-repeat center;
+	}
+}
